@@ -35,4 +35,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          #telnet e-corp-adf1-devint.sherwin.com 8131
+          telnet www.google.com 443
