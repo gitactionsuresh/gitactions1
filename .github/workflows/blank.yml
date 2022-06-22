@@ -35,4 +35,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          telnet www.google.com 443
+          nslookup www.google.com 
