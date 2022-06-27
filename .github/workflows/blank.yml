@@ -38,4 +38,4 @@ jobs:
           nslookup www.google.com 
       # Runs a single command using the runners shell
       - name: Run a shell script
-        run: ./shellscript.sh
+        run: sh ./shellscript.sh
