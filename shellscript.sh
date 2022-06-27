@@ -4,4 +4,5 @@ count=1
 while [ $valid ]
 do
 echo $count
+break
 done
