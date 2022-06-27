@@ -42,6 +42,7 @@ jobs:
         run: sh ./shellscript.sh
   job2:
     # The type of runner that the job will run on
+    needs: [job1 ]
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
