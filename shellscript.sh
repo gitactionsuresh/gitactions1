@@ -6,5 +6,5 @@ do
 echo $count
 break
 done
-Today=$(date +'%m/%d/%Y')
+Today=$(date +'%Y-%m-%d.%H:%M:%S:%Z')
 echo "Today date and time: ${Today}"
